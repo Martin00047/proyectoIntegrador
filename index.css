@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: center;
+}
+.col a{
+    text-decoration: none;
+}
+
+.container-sm contenedor{  
+    border: 2px solid black;  
+    text-align: center;
+    font-size: 1rem;
+    color: brown;
+    position: absolute;
+    display: inline-block;
+    top: 500px;
+    translate: -130%;
+   
+    
+    
+
+}

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-sm">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <a class="navbar-brand"><img src="img/codoacodo.png" alt="logo" width="100px" height="auto"
+            class="d-inline-block align-text-center">Conf Bs As</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+            <a class="nav-link" href="#">Los Oradores</a>
+            <a class="nav-link" href="#">El lugar y fecha</a>
+            <a class="nav-link" href="#">Conviertete en Orador</a>
+            <a class="nav-link" style="color: green ;" href="#">Comprar Ticket</a>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <section>
+    <div class="container-sm">
+      <img src="img/ba1.jpg" class="card-img-top" alt="foto Edificio">
+
+    </div>
+  </section>
+
+  <!-- oradores tarjetas-->
+  <h2 class="text-center"><span class="fs-6">Conoce a los</span> <br>ORADORES</h2>
+
+  <section class="container-sm">
+    <div class="row">
+
+      <div class="col-xl-4">
+        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;margin: 20px;">
+          <img src="img/steve.jpg" class="card-img-top" alt="foto steve jobs">
+          <div class="card-body">
+            <h5 style="font-size: 15px;">
+              <span class="badge bg-warning text-dark">JavaScrip</span>
+              <span class="badge bg-secondary">React</span>
+            </h5>
+            <h6>Steve Jobs</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xl-4">
+        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem; margin: 10px;">
+          <img src="img/bill.jpg" class="card-img-top" alt="foto Bill Gate">
+          <div class="card-body">
+            <h5 style="font-size: 15px;">
+              <span class="badge bg-warning text-dark">JavaScrip</span>
+              <span class="badge bg-secondary">React</span>
+            </h5>
+            <h6>Bill Gate</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-4">
+        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem; margin: 10px ;">
+          <img src="img/ada.jpeg" class="card-img-top" alt="foto Ada Lovelace">
+          <div class="card-body">
+            <h5 style="font-size: 15px;">
+              <span class="badge bg-secondary">Negocios</span>
+              <span class="badge bg-danger">Startups</span>
+            </h5>
+            <h6>Ada Lovelace</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section>
+    <div class="container-sm">
+      <div class="row">
+        <div class="imagen1 col-md-6">
+          <img src="img/honolulu.jpg" style="width:800px;" alt="foto playa">
+        </div>
+        <div class="texto1 col-md-6" style="background-color: grey;">
+          <p>
+          <h1 class="Titulo" style="font-size: large;">Bs As - Octubre</h1>
+          Buenos aires es la provincia y localidad mas grande del estado de argentina,en los Ustados Unidos.
+          Honduras es la mas sureña de entre las principales ciudades estadounidenses.Aunque el nombre de honoluluse
+          refiere al area urbana en la costa sureste de la isla Oahu
+          ,la ciudad y el condado de Honolulu han formado una ciudad-
+          condado consolidada que cubre toda la ciudad(aproimadamente 600Km de superficie).
+          </p>
+          <button type="button" class="btn btn-secondary">Conoce mas</button>
+        </div>
+        <div class="texto2" style="font-size: small;text-align: center;">CONVIERTETE EN UN ORADOR</div>
+        <DIV class="texto3" style="font-size:large;text-align:center"><b>ORADOR</b></DIV>
+        <p>Anotate conviertete en un orador para dar una charla ignite.Cuentanos de que quieres hablar!</p>
+      </div>
+      <form>
+        <div class="container-sm">
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            <!-- <span class="input-group-text">@</span> -->
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Server">
+          </div>
+
+          <div class="input-group">
+            <span class="input-group-text">Sobre que quieres hablar</span>
+            <textarea class="form-control" aria-label="Sobre que quieres hablar"></textarea><br>
+          </div>
+          <p>Recuerda incluir un titulo para tu charla</p>
+          <div class="d-grid gap-2 col-6 mx-auto">
+
+            <button type="button" class="btn btn-success">Enviar</button>
+          </div>
+
+        </div>
+    </div>
+    </div>
+    </form>
+    <footer>
+      <div class="container-sm">
+        <div class="contenedor" style="background-color: rgb(29, 71, 80) ;">
+          <div class="row" style="margin:10px;padding:20px ;">
+            <div class="col"><a href="#" class="link-light"> Preguntas frecuentes</a></div>
+            <div class="col"><a href="#" class="link-light">Contactenos</a></div>
+            <div class="col"><a href="#" class="link-light">Prensa</a></div>
+            <div class="col"><a href="#" class="link-light">Conferencias</a></div>
+            <div class="col"><a href="#" class="link-light">Terminos y condiciones</a></div>
+            <div class="col"><a href="#" class="link-light">Privacidad</a></div>
+            <div class="col"><a href="#" class="link-light">Estudiantes</a></div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
